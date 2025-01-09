@@ -1,0 +1,148 @@
+/* Şablon Genel Ayarları Bu Kısımda */
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, #f0f4f8, #d9e6f2);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #1f2937;
+}
+
+.generator-container {
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px 40px;
+    width: 450px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #111827;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #6b7280;
+    margin-bottom: 20px;
+}
+
+/* Parola Gösterimi Kutu */
+.password-box {
+    display: flex;
+    align-items: center;
+    background: #f9fafb;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.password-box input {
+    flex: 1;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    color: #1f2937;
+    outline: none;
+}
+
+.icon-button {
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #6b7280;
+    transition: color 0.3s;
+}
+
+.icon-button:hover {
+    color: #111827;
+}
+
+.strength-box {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #4b5563;
+}
+
+/* Slider ve Kontroller Kısmı */
+.control-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.slider-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.slider-button {
+    background: #f3f4f6;
+    border: none;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1f2937;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.slider-button:hover {
+    background: #e5e7eb;
+}
+
+input[type="range"] {
+    flex: 1;
+    -webkit-appearance: none;
+    background: #d1d5db;
+    height: 6px;
+    border-radius: 3px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 16px;
+    height: 16px;
+    background: #2563eb;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Karakter Seçenekleri */
+.character-options {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
+}
+
+.character-options label {
+    font-size: 14px;
+    color: #4b5563;
+}
+
+/* Kopyala Butonu Kısmı */
+.primary-button {
+    background: #2563eb;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.primary-button:hover {
+    background: #1d4ed8;
+}
