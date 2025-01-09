@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Parola Oluşturucu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="generator-container">
+        <h1>Rastgele Parola Oluşturucu</h1>
+        <p class="subtitle">Hesaplarınızı korumak için güvenli ve güçlü parolalar oluşturun.</p>
+
+        <!-- Parola Oluşturmayı Buradan Kontrol Edebilirsiniz  -->
+        <div class="password-box">
+            <input type="text" id="password-display" readonly placeholder="Parola oluşturun">
+            <button id="generate-btn" class="icon-button refresh">🔄</button>
+        </div>
+
+        <div class="strength-box">
+            <span id="strength-indicator">Şifre Gücü: Bilinmiyor</span>
+        </div>
+
+        <!-- Parola Uzunluğunu Belirleyen Barı Buradan Ayarlayabilirsin -->
+        <div class="control-group">
+            <label>Parola Uzunluğu:</label>
+            <div class="slider-container">
+                <button id="decrease-length" class="slider-button">-</button>
+                <input type="range" id="password-length" min="8" max="32" value="15">
+                <button id="increase-length" class="slider-button">+</button>
+            </div>
+            <span id="length-value">15</span>
+        </div>
+
+        <!-- Karakter Seçeneklerini Buradan Ayarlayabilirsin -->
+        <div class="character-options">
+            <label><input type="checkbox" id="uppercase" checked> Büyük Harfler (ABC)</label>
+            <label><input type="checkbox" id="lowercase" checked> Küçük Harfler (abc)</label>
+            <label><input type="checkbox" id="numbers" checked> Sayılar (123)</label>
+            <label><input type="checkbox" id="symbols"> Semboller (#$&)</label>
+        </div>
+
+        <!-- Kopyala Düğmesi Kısmı -->
+        <button id="copy-btn" class="primary-button">Kopyala</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
