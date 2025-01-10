@@ -1,32 +1,39 @@
-** PassMaster 🚀 **
-Güvenli ve Modern Parola Oluşturucu
-PassMaster, çevrimiçi hesaplarınızı güvende tutmanız için güçlü ve modern bir parola oluşturucu uygulamasıdır. Minimalist tasarımı ve kullanıcı dostu arayüzüyle hızlı ve güvenilir bir şekilde rastgele parolalar oluşturabilirsiniz.
+# PassMaster 🔒
 
-**🎯 Özellikler**
-Dinamik Parola Uzunluğu Ayarı: Parola uzunluğunu kaydırıcıyla kolayca ayarlayın (8-32 karakter arası).
-Karmaşık Parolalar: Büyük harfler, küçük harfler, sayılar ve semboller dahil olmak üzere tamamen özelleştirilebilir.
-Şifre Gücü Analizi: Şifre gücünü anında değerlendirin (Zayıf, Orta, Güçlü).
-Kopyalama İşlevi: Oluşturulan şifreyi tek tıkla kopyalayın.
-Modern ve Şık Tasarım: Minimalist ve mobil uyumlu arayüz.
-**🖥️ Gösterim**
-PassMaster'ı Şimdi Görüntüle!
+**PassMaster** güçlü ve güvenli parolalar oluşturmanıza olanak sağlayan, modern ve minimalist bir parola oluşturucu uygulamasıdır. Kullanıcı dostu arayüzü sayesinde hesaplarınızı daha güvenli hale getirmek için karmaşık parolalar oluşturabilirsiniz.
 
-**🚀 Kurulum**
-Bu projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyin:
+![PassMasterGithub](https://github.com/user-attachments/assets/9a16beff-6422-4fb0-bbe7-13c38d0d5da0)
 
-**Depoyu Klonlayın:**
-git clone https://github.com/wEZELBAYRAKTAR/PassMaster.git
-**Proje Klasörüne Girin:**
-cd PassMaster
-HTML Dosyasını Çalıştırın: Tarayıcınızda index.html dosyasını açarak uygulamayı kullanabilirsiniz.
 
-**📂 Dosya Yapısı**
-PassMaster/
-├── index.html       # Ana HTML dosyası
-├── styles.css       # CSS (Tasarım)
-├── script.js        # JavaScript (İşlevsellik)
-└── README.md        # Proje bilgileri
-**🛠️ Kullanılan Teknolojiler**
-HTML5: Modern ve semantik web yapısı.
-CSS3: Şık ve duyarlı tasarım.
-JavaScript (Vanilla): Dinamik işlevsellik.
+---
+
+## 🚀 Özellikler
+
+- **Dinamik Parola Ayarları**  
+  - Parola uzunluğunu kaydırıcıyla kolayca belirleyin (8-32 karakter).  
+  - Büyük harfler, küçük harfler, sayılar ve semboller gibi özel karakter seçeneklerini ekleyin veya çıkarın.
+
+- **Parola Gücü Değerlendirmesi**  
+  - Şifre gücünü anında değerlendirin (Zayıf, Orta, Güçlü).  
+
+- **Kopyala İşlevi**  
+  - Oluşturulan şifreyi tek tıklamayla panoya kopyalayın.
+
+- **Modern ve Minimal Tasarım**  
+  - Mobil uyumlu, temiz ve modern bir kullanıcı arayüzü.
+
+---
+
+## 🖥️ Canlı Demo
+
+📌 ![PassMaster](https://github.com/user-attachments/assets/acdfff91-2892-4ef7-baaa-b07da587b6dd)
+
+
+---
+
+## 🛠️ Kurulum
+
+Projenin kaynak kodunu kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyin:
+
+1. **Depoyu Klonlayın**
+   git clone https://github.com/wEZELBAYRAKTAR/PassMaster.git
